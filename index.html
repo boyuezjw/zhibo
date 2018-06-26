@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="index-header">
+        <img src="images/index-header-tp.png" alt="">
+        <img src="images/index-logo.png" alt="">
+        <img src="images/index-jt.png" alt="" id="header-jt">
+        <video autoplay loop muted src="video/header-video.mp4" width="150%" class="index-video-size"></video>
+    </div>
+    <script>
+        var viewHeight = $(window).height(); //获取浏览器可视高
+        $(".index-header").css("height", viewHeight);
+        $(window).resize(function() { //浏览器窗口变化事件
+            viewHeight = $(window).height(); //获取浏览器可视高
+            $(".index-header").css("height", viewHeight);
+        })
+    </script>
+    <nav style="background: #333;">
+        <div id="js-nav">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+            <ul>
+                <li>
+                    <a href=""><img src="images/weibo.png" alt=""></a>
+                    <div class="nav-menu">
+                        <section>
+                            <div>
+                                <div class="nav-code-item">
+                                    <img src="images/two-code.jpg" alt="">
+                                    <p>扫描二维码关注智博公众号</p>
+                                </div>
+                                <div class="nav-code-item">
+                                    <img src="images/two-code.jpg" alt="">
+                                    <p>扫描二维码关注智博公众号</p>
+                                </div>
+                                <div class="nav-code-item">
+                                    <img src="images/two-code.jpg" alt="">
+                                    <p>扫描二维码关注智博公众号</p>
+                                </div>
+                                <div class="nav-code-item">
+                                    <img src="images/two-code.jpg" alt="">
+                                    <p>扫描二维码关注智博公众号</p>
+                                </div>
+                                <div class="nav-code-item">
+                                    <img src="images/two-code.jpg" alt="">
+                                    <p>扫描二维码关注智博公众号</p>
+                                </div>
+                                <div class="nav-code-item">
+                                    <img src="images/two-code.jpg" alt="">
+                                    <p>扫描二维码关注智博公众号</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </li>
+                <li>
+                    <a href=""><img src="images/weixin.png" alt=""></a>
+                    <div class="nav-menu">
+                        <section>
+                            <div>
+                                <div class="nav-code-item">
+                                    <img src="images/two-code.jpg" alt="">
+                                    <p>扫描二维码关注智博公众号</p>
+                                </div>
+                                <div class="nav-code-item">
+                                    <img src="images/two-code.jpg" alt="">
+                                    <p>扫描二维码关注智博公众号</p>
+                                </div>
+                                <div class="nav-code-item">
+                                    <img src="images/two-code.jpg" alt="">
+                                    <p>扫描二维码关注智博公众号</p>
+                                </div>
+                                <div class="nav-code-item">
+                                    <img src="images/two-code.jpg" alt="">
+                                    <p>扫描二维码关注智博公众号</p>
+                                </div>
+                                <div class="nav-code-item">
+                                    <img src="images/two-code.jpg" alt="">
+                                    <p>扫描二维码关注智博公众号</p>
+                                </div>
+                                <div class="nav-code-item">
+                                    <img src="images/two-code.jpg" alt="">
+                                    <p>扫描二维码关注智博公众号</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </li>
+                <li>
+                    <a href="baike.html">艺考百科</a>
+                    <div class="nav-menu">
+                        <h4>艺考百科</h4>
+                        <img src="images/nav-pic.png" alt="">
+                        <div>
+                            <a href="baike.html">美术联考</a>
+                            <a href="baike.html">美术校考</a>
+                            <a href="baike.html">历年联考题目</a>
+                        </div>
+                        <div>
+                            <a href="baike.html">历年校考题目</a>
+                            <a href="baike.html">高分试卷</a>
+                            <a href="baike.html">成绩查询</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="news.html">画室资讯</a>
+                    <div class="nav-menu">
+                        <h4>画室资讯</h4>
+                        <img src="images/nav-pic.png" alt="">
+                        <div>
+                            <a href="news.html">智博动态</a>
+                            <a href="news.html">师生活动</a>
+                            <a href="news.html">校园联播</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="student.html">家校互联</a>
+                    <div class="nav-menu">
+                        <h4>家校互联</h4>
+                        <img src="images/nav-pic.png" alt="">
+                        <div>
+                            <a href="student.html">学员风采</a>
+                            <a href="wit.html">智慧校园</a>
+                            <a href="content.html">OA系统</a>
+                        </div>
+                        <div>
+                            <a href="question.html">家长问答</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="works.html">作品欣赏</a>
+                    <div class="nav-menu">
+                        <h4>作品欣赏</h4>
+                        <img src="images/nav-pic.png" alt="">
+                        <div>
+                            <a href="works.html">教师作品</a>
+                            <a href="works.html">学生作品</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="guide.html">招生简章</a>
+                    <div class="nav-menu">
+                        <h4>招生简章</h4>
+                        <img src="images/nav-pic.png" alt="">
+                        <div>
+                            <a href="guide.html">招生简章</a>
+                            <a href="class.html">班级设置</a>
+                            <a href="content.html">收费标准</a>
+                        </div>
+                        <div>
+                            <a href="content.html">入学流程</a>
+                            <a href="apply.html">在线报名</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="score.html">历年成绩</a>
+                    <div class="nav-menu">
+                        <h4>历年成绩</h4>
+                        <img src="images/nav-pic.png" alt="">
+                        <div>
+                            <a href="score.html">2018年成绩</a>
+                            <a href="score.html">2017年成绩</a>
+                            <a href="score.html">2016年成绩</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="teacher.html">师资教学</a>
+                    <div class="nav-menu">
+                        <h4>师资教学</h4>
+                        <img src="images/nav-pic.png" alt="">
+                        <div>
+                            <a href="teacher.html">名师团队</a>
+                            <a href="book.html">智博刊物</a>
+                            <a href="video.html">教学视频</a>
+                        </div>
+                        <div>
+                            <a href="video-online.html">在线直播</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="active">
+                    <a href="">关于智博</a>
+                    <div class="nav-menu">
+                        <h4>关于智博</h4>
+                        <img src="images/nav-pic.png" alt="">
+                        <div>
+                            <a href="summary.html">智博简介</a>
+                            <a href="content.html">智博理念</a>
+                            <a href="event.html">大事件</a>
+                        </div>
+                        <div>
+                            <a href="honor.html">智博荣誉</a>
+                            <a href="manage.html">管理制度</a>
+                            <a href="contact.html">联系我们</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="fade-slide">
+        <ul>
+            <li class="slide-item"><a href=""><img src="images/index-banner.jpg" alt=""></a></li>
+            <li class="slide-item"><a href=""><img src="images/index-banner.jpg" alt=""></a></li>
+            <li class="slide-item"><a href=""><img src="images/index-banner.jpg" alt=""></a></li>
+        </ul>
+
+        <div>
+            <div>
+                <div class="slide-btn slide-btn-s"><div></div></div>
+                <div class="slide-btn"><div></div></div>
+                <div class="slide-btn"><div></div></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="index-ad">
+        <img src="images/index-ad-pic.png" alt="">
+        <a href=""><img src="images/index-apply-icon.png" alt="">在线报名</a>
+        <a href=""><img src="images/index-qq-icon.png" alt="">QQ在线咨询</a>
+    </div>
+
+    <div class="index-news">
+        <div class="index-title">
+            <h4>新闻资讯 /News</h4>
+            <p>我们会不定期发表资讯，关于画室日常，考试信息等</p>
+        </div>
+
+        <div class="index-news-content">
+            <div class="page-nav">
+                <ul id="js-news-change">
+                    <li class="active"><a class="f18">智博动态</a></li>
+                    <li><a class="f18">师生活动</a></li>
+                    <li><a class="f18">校园联播</a></li>
+                </ul>
+            </div>
+
+            <div class="index-news-item">
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+            </div>
+            <div class="index-news-item" style="display: none;">
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目1</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+            </div>
+            <div class="index-news-item" style="display: none;">
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目2</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+                <a href="">
+                    <div>
+                        <h4>2018年湖南省美术联考题目</h4>
+                        <p>根据附图，用黑白铅笔或炭笔完成一幅画面。</p>
+                        <span><img src="images/small-icon.png" alt="">智博美术<span>2018.05.30</span><span>浏览  837</span></span>
+                    </div>
+                    <img src="images/index-news-pic.jpg" alt="">
+                </a>
+            </div>
+        </div>
+
+        <a href="" class="load-more">更多资讯</a>
+    </div>
+
+    <div class="index-score">
+        <div class="index-title">
+            <h4>智博成绩 /Achievement</h4>
+        </div>
+        <div class="page-nav">
+            <ul id="js-score-change">
+                <li class="active"><a class="f18">2018联考</a></li>
+                <li><a class="f18">2017联考</a></li>
+                <li><a class="f18">2016联考</a></li>
+                <li><a class="f18">2015联考</a></li>
+                <li><a class="f18">2014联考</a></li>
+                <li><a class="f18">2013联考</a></li>
+            </ul>
+        </div>
+
+        <div class="index-score-content">
+            <div class="index-score-item">
+                <img src="images/index-blue-left-jt.png" alt="左按钮" class="left-btn">
+
+                <a href="content.html" class="index-score-item3"><img src="images/index-score-pic.jpg" alt=""></a>
+                <a href="content.html" class="index-score-item3"><img src="images/index-score-pic.jpg" alt=""></a>
+                <a href="content.html" class="index-score-item3"><img src="images/index-score-pic.jpg" alt=""></a>
+
+                <img src="images/index-blue-right-jt.png" alt="右按钮" class="right-btn">
+            </div>
+            <div class="index-score-item" style="display: none;">
+                <img src="images/index-blue-left-jt.png" alt="左按钮" class="left-btn">
+
+                <a href="content.html" class="index-score-item3"><img src="images/ad-news-pic.jpg" alt=""></a>
+                <a href="content.html" class="index-score-item3"><img src="images/index-news-pic.jpg" alt=""></a>
+                <a href="content.html" class="index-score-item3"><img src="images/map-pic.jpg" alt=""></a>
+                <a href="content.html" class="index-score-item3"><img src="images/summary-pic.jpg" alt=""></a>
+
+                <img src="images/index-blue-right-jt.png" alt="右按钮" class="right-btn">
+            </div>
+            <div class="index-score-item" style="display: none;">
+                <img src="images/index-blue-left-jt.png" alt="左按钮" class="left-btn">
+
+                <a href="content.html" class="index-score-item3"><img src="images/index-score-pic.jpg" alt=""></a>
+                <a href="content.html" class="index-score-item3"><img src="images/index-score-pic.jpg" alt=""></a>
+                <a href="content.html" class="index-score-item3"><img src="images/index-score-pic.jpg" alt=""></a>
+
+                <img src="images/index-blue-right-jt.png" alt="右按钮" class="right-btn">
+            </div>
+            <div class="index-score-item" style="display: none;">
+                <img src="images/index-blue-left-jt.png" alt="左按钮" class="left-btn">
+
+                <a href="content.html" class="index-score-item3"><img src="images/index-score-pic.jpg" alt=""></a>
+                <a href="content.html" class="index-score-item3"><img src="images/index-score-pic.jpg" alt=""></a>
+                <a href="content.html" class="index-score-item3"><img src="images/index-score-pic.jpg" alt=""></a>
+
+                <img src="images/index-blue-right-jt.png" alt="右按钮" class="right-btn">
+            </div>
+            <div class="index-score-item" style="display: none;">
+                <img src="images/index-blue-left-jt.png" alt="左按钮" class="left-btn">
+
+                <a href="content.html" class="index-score-item3"><img src="images/index-score-pic.jpg" alt=""></a>
+                <a href="content.html" class="index-score-item3"><img src="images/index-score-pic.jpg" alt=""></a>
+                <a href="content.html" class="index-score-item3"><img src="images/index-score-pic.jpg" alt=""></a>
+
+                <img src="images/index-blue-right-jt.png" alt="右按钮" class="right-btn">
+            </div>
+            <div class="index-score-item" style="display: none;">
+                <img src="images/index-blue-left-jt.png" alt="左按钮" class="left-btn">
+
+                <a href="content.html" class="index-score-item3"><img src="images/index-score-pic.jpg" alt=""></a>
+                <a href="content.html" class="index-score-item3"><img src="images/index-score-pic.jpg" alt=""></a>
+                <a href="content.html" class="index-score-item3"><img src="images/index-score-pic.jpg" alt=""></a>
+
+                <img src="images/index-blue-right-jt.png" alt="右按钮" class="right-btn">
+            </div>
+            <div class="index-score-bg"></div>
+        </div>
+
+        <a href="score.html" class="load-more">更多成绩</a>
+
+    </div>
+
+    <div class="index-explain">
+        <a href="content.html">
+            <img src="images/index-explain-bg.jpg" alt="">
+            <div>
+                <h4>2018家长手册</h4>
+                <p>点击了解</p>
+            </div>
+        </a>
+        <a href="content.html">
+            <img src="images/index-explain-bg.jpg" alt="">
+            <div>
+                <h4>2018家长手册</h4>
+                <p>点击了解</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="index-teacher">
+        <div class="index-title">
+            <h4>名师队伍 /Teachers</h4>
+            <p>智博现有教职工120余人，均是来自于各大美院，</p>
+            <p>各重点高校。主教老师均在美术培训行业执教6年以上</p>
+        </div>
+
+        <div class="index-teacher-content">
+            <div class="teacher-center">
+                <a href="content.html">
+                    <img src="images/teacher-pic.png" alt="">
+                    <div>
+                        <h4>陈康应 </h4>
+                        <p>色彩主教</p>
+                        <p>北京服装学院艺术设计系</p>
+                        <span><span>CHEN</span>KANG YING ____________</span>
+                    </div>
+                </a>
+                <a href="">
+                    <img src="images/teacher-pic.png" alt="">
+                    <div>
+                        <h4>陈康应 </h4>
+                        <p>色彩主教</p>
+                        <p>北京服装学院艺术设计系</p>
+                        <span><span>CHEN</span>KANG YING ____________</span>
+                    </div>
+                </a>
+                <a href="">
+                    <img src="images/teacher-pic.png" alt="">
+                    <div>
+                        <h4>陈康应 </h4>
+                        <p>色彩主教</p>
+                        <p>北京服装学院艺术设计系</p>
+                        <span><span>CHEN</span>KANG YING ____________</span>
+                    </div>
+                </a>
+                <a href="">
+                    <img src="images/teacher-pic.png" alt="">
+                    <div>
+                        <h4>陈康应 </h4>
+                        <p>色彩主教</p>
+                        <p>北京服装学院艺术设计系</p>
+                        <span><span>CHEN</span>KANG YING ____________</span>
+                    </div>
+                </a>
+                <a href="">
+                    <img src="images/teacher-pic.png" alt="">
+                    <div>
+                        <h4>陈康应 </h4>
+                        <p>色彩主教</p>
+                        <p>北京服装学院艺术设计系</p>
+                        <span><span>CHEN</span>KANG YING ____________</span>
+                    </div>
+                </a>
+                <a href="">
+                    <img src="images/teacher-pic.png" alt="">
+                    <div>
+                        <h4>陈康应 </h4>
+                        <p>色彩主教</p>
+                        <p>北京服装学院艺术设计系</p>
+                        <span><span>CHEN</span>KANG YING ____________</span>
+                    </div>
+                </a>
+                <a href="">
+                    <img src="images/teacher-pic.png" alt="">
+                    <div>
+                        <h4>陈康应 </h4>
+                        <p>色彩主教</p>
+                        <p>北京服装学院艺术设计系</p>
+                        <span><span>CHEN</span>KANG YING ____________</span>
+                    </div>
+                </a>
+                <a href="">
+                    <img src="images/teacher-pic.png" alt="">
+                    <div>
+                        <h4>陈康应 </h4>
+                        <p>色彩主教</p>
+                        <p>北京服装学院艺术设计系</p>
+                        <span><span>CHEN</span>KANG YING ____________</span>
+                    </div>
+                </a>
+            </div>
+
+            <a href="teacher.html">
+                <p>如果今天能比昨天更努力一点，</p>
+                <p>明天就离梦想更近一点，艺术的殿堂，你终会抵达。</p>
+                <p>我从来都不相信这个世界真的有所谓的“天才”，</p>
+                <p>我只相信，只要你一直勤奋下去，终有一天，我们会获得想要的。</p>
+                <span>更多名师></span>
+                <img src="images/index-font-pic.png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="index-works">
+        <div class="index-title">
+            <h4>作品赏析 /Appreciate</h4>
+            <p>青春是一个充满选择的过程，没有所谓的对错</p>
+            <p>每一个选择的背后都是一个不一样的人生</p>
+        </div>
+
+        <div class="index-works-content">
+            <div class="page-nav">
+                <ul id="js-works-change">
+                    <li class="active"><a class="f18">色彩</a></li>
+                    <li><a class="f18">素描</a></li>
+                    <li><a class="f18">速写</a></li>
+                    <li><a class="f18">设计</a></li>
+                </ul>
+            </div>
+            
+            <div class="index-works-pic">
+                <a href=""><img src="images/works-pic.jpg" alt=""></a>
+                <a href=""><img src="images/works-pic.jpg" alt=""></a>
+                <a href=""><img src="images/works-pic.jpg" alt=""></a>
+                <a href=""><img src="images/works-pic.jpg" alt=""></a>
+            </div>
+            <div class="index-works-pic" style="display: none;">
+                <a href=""><img src="images/works-pic.jpg" alt=""></a>
+                <a href=""><img src="images/works-pic.jpg" alt=""></a>
+                <a href=""><img src="images/works-pic.jpg" alt=""></a>
+            </div>
+            <div class="index-works-pic" style="display: none;">
+                <a href=""><img src="images/works-pic.jpg" alt=""></a>
+                <a href=""><img src="images/works-pic.jpg" alt=""></a>
+            </div>
+            <div class="index-works-pic" style="display: none;">
+                <a href=""><img src="images/works-pic.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <a href="works.html" class="load-more">更多作品</a>
+    </div>
+
+    <a href="video.html" class="index-video-pic">
+        <img src="images/index-video-pic.jpg" alt="">
+        <img src="images/index-play-icon.png" alt="">
+    </a>
+
+    <div class="index-advantage">
+        <div class="index-title">
+            <h4>智博优势 /Advantage</h4>
+            <p>在教学方面，我们一刻不敢懈怠，</p>
+            <p>一套完善的教学体系是我们成功的保障</p>
+        </div>
+
+        <div class="index-advantage-content">
+            <div class="index-advantage-item">
+                <a href="content.html">
+                    <img src="images/index-advantage.jpg" alt="">
+                    <div>
+                        <img src="images/advantage-icon1.png" alt="">
+                        <img src="images/advantage-icon11.png" alt="">
+                        <h4>完善的教学体系</h4>
+                        <p>智博美术所有课程大纲、教学计划、备考方案全部由参与联考命题和阅卷的教授跟踪和制定、...</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-advantage.jpg" alt="">
+                    <div>
+                        <img src="images/advantage-icon2.png" alt="">
+                        <img src="images/advantage-icon22.png" alt="">
+                        <h4>严格的管理体系</h4>
+                        <p>智博美术所有课程大纲、教学计划、备考方案全部由参与联考命题和阅卷的教授跟踪和制定、...</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-advantage.jpg" alt="">
+                    <div>
+                        <img src="images/advantage-icon3.png" alt="">
+                        <img src="images/advantage-icon33.png" alt="">
+                        <h4>人性的教学互动</h4>
+                        <p>智博美术所有课程大纲、教学计划、备考方案全部由参与联考命题和阅卷的教授跟踪和制定、...</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-advantage.jpg" alt="">
+                    <div>
+                        <img src="images/advantage-icon4.png" alt="">
+                        <img src="images/advantage-icon44.png" alt="">
+                        <h4>高效的团队建设</h4>
+                        <p>智博美术所有课程大纲、教学计划、备考方案全部由参与联考命题和阅卷的教授跟踪和制定、...</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-advantage.jpg" alt="">
+                    <div>
+                        <img src="images/advantage-icon5.png" alt="">
+                        <img src="images/advantage-icon55.png" alt="">
+                        <h4>准确的考学定位</h4>
+                        <p>智博美术所有课程大纲、教学计划、备考方案全部由参与联考命题和阅卷的教授跟踪和制定、...</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-advantage.jpg" alt="">
+                    <div>
+                        <img src="images/advantage-icon6.png" alt="">
+                        <img src="images/advantage-icon66.png" alt="">
+                        <h4>科技与教育无缝对接</h4>
+                        <p>智博美术所有课程大纲、教学计划、备考方案全部由参与联考命题和阅卷的教授跟踪和制定、...</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-advantage.jpg" alt="">
+                    <div>
+                        <img src="images/advantage-icon7.png" alt="">
+                        <img src="images/advantage-icon77.png" alt="">
+                        <h4>统一的组考送考</h4>
+                        <p>智博美术所有课程大纲、教学计划、备考方案全部由参与联考命题和阅卷的教授跟踪和制定、...</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-advantage.jpg" alt="">
+                    <div>
+                        <img src="images/advantage-icon8.png" alt="">
+                        <img src="images/advantage-icon88.png" alt="">
+                        <h4>美术高考志愿填报</h4>
+                        <p>智博美术所有课程大纲、教学计划、备考方案全部由参与联考命题和阅卷的教授跟踪和制定、...</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <a href="content.html" class="load-more">查看详情</a>
+    </div>
+
+    <a href=""><img src="images/index-ad-tp.png" alt="" class="index-ad-tp"></a>
+
+    <div class="index-answer">
+        <div class="index-title">
+            <h4>家长问答 /Answer</h4>
+            <p>我们整理了一些常见疑问，可点击了解，</p>
+            <p>如果您有不明白的可以通过电话和在线咨询的形式联系我们</p>
+        </div>
+
+        <div class="index-answer-content">
+            <div class="index-answer-item">
+                <a href="content.html">
+                    <img src="images/index-answer.jpg" alt="">
+                    <div>
+                        <p>如何让孩子的文化课和专业课双提高？</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-answer.jpg" alt="">
+                    <div>
+                        <p>如何让孩子的文化课和专业课双提高？</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-answer.jpg" alt="">
+                    <div>
+                        <p>如何让孩子的文化课和专业课双提高？</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-answer.jpg" alt="">
+                    <div>
+                        <p>如何让孩子的文化课和专业课双提高？</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-answer.jpg" alt="">
+                    <div>
+                        <p>如何让孩子的文化课和专业课双提高？</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-answer.jpg" alt="">
+                    <div>
+                        <p>如何让孩子的文化课和专业课双提高？</p>
+                    </div>
+                </a>
+                <a href="">
+                    <img src="images/index-answer.jpg" alt="">
+                    <div>
+                        <p>如何让孩子的文化课和专业课双提高？</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-answer.jpg" alt="">
+                    <div>
+                        <p>如何让孩子的文化课和专业课双提高？</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-answer.jpg" alt="">
+                    <div>
+                        <p>如何让孩子的文化课和专业课双提高？</p>
+                    </div>
+                </a>
+                <a href="">
+                    <img src="images/index-answer.jpg" alt="">
+                    <div>
+                        <p>学生寝室条件如何？</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-answer.jpg" alt="">
+                    <div>
+                        <p>如何让孩子的文化课和专业课双提高？</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-answer.jpg" alt="">
+                    <div>
+                        <p>如何让孩子的文化课和专业课双提高？</p>
+                    </div>
+                </a>
+                <a href="content.html">
+                    <img src="images/index-answer.jpg" alt="">
+                    <div>
+                        <p>如何让孩子的文化课和专业课双提高？</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="index-book">
+        <div class="index-title">
+            <h4>智博刊物 /Publication</h4>
+        </div>
+
+        <div class="index-book-content">
+            <div class="book-center">
+                <a href="">
+                    <img src="images/book-pic.png" alt="">
+                    <div>
+                        <h4>《功夫》</h4>
+                        <p>色调范本</p>
+                    </div>
+                </a>
+                <a href="">
+                    <img src="images/book-pic.png" alt="">
+                    <div>
+                        <h4>《功夫》</h4>
+                        <p>色调范本</p>
+                    </div>
+                </a>
+                <a href="">
+                    <img src="images/book-pic.png" alt="">
+                    <div>
+                        <h4>《功夫》</h4>
+                        <p>色调范本</p>
+                    </div>
+                </a>
+                <a href="">
+                    <img src="images/book-pic.png" alt="">
+                    <div>
+                        <h4>《功夫》</h4>
+                        <p>色调范本</p>
+                    </div>
+                </a>
+                <a href="">
+                    <img src="images/book-pic.png" alt="">
+                    <div>
+                        <h4>《功夫》</h4>
+                        <p>色调范本</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <a href="book.html" class="load-more">查看更多</a>
+    </div>
+
+    <div class="index-apply-ad">
+        <a href="apply.html">
+            <h4>在线报名通道</h4>
+            <p>点击进入></p>
+        </a>
+        <a href="content.html">
+            <h4>2019届招生简章</h4>
+            <p>点击了解></p>
+        </a>
+    </div>
+
+    <footer>
+        <div class="footer-center">
+            <div class="footer-center-title">
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
+                <span> / 21年专注美术教育培训</span>
+            </div>
+            <div class="footer-center-contact" style="height:160px;">
+                <div>
+                    <h4 style="padding-top:35px;">联系我们</h4>
+                    <p>湖南省长沙市岳麓区王家湾左家垅小区43栋</p>
+                    <p>座机：0731-82255559<span>手机：15608406999</span></p>
+                </div>
+                <section>
+                    <div>
+                        <img src="images/two-code.jpg" alt="">
+                        <p>微信扫码关注智博公众号</p>
+                    </div>
+                </section>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="summary.html">关于智博</a></li>
+                    <li><a href="summary.html">智博简介</a></li>
+                    <li><a href="content.html">智博理念</a></li>
+                    <li><a href="event.html">大事件</a></li>
+                    <li><a href="honor.html">智博荣誉</a></li>
+                    <li><a href="manage.html">管理制度</a></li>
+                </ul>
+                <ul>
+                    <li><a href="teacher.html">师资教学</a></li>
+                    <li><a href="teacher.html">名师团队</a></li>
+                    <li><a href="book.html">智博刊物</a></li>
+                    <li><a href="video.html">教学视频</a></li>
+                </ul>
+                <ul>
+                    <li><a href="score.html">历年成绩</a></li>
+                    <li><a href="score.html">2018（联考+校考）</a></li>
+                    <li><a href="score.html">2017（联考+校考）</a></li>
+                    <li><a href="score.html">2016（联考+校考）</a></li>
+                </ul>
+                <ul>
+                    <li><a href="guide.html">招生简章</a></li>
+                    <li><a href="guide.html">招生简章</a></li>
+                    <li><a href="class.html">班级设置</a></li>
+                    <li><a href="content.html">收费标准</a></li>
+                    <li><a href="content.html">入学流程</a></li>
+                    <li><a href="apply.html">在线报名</a></li>
+                </ul>
+                <ul>
+                    <li><a href="works.html">作品欣赏</a></li>
+                    <li><a href="works.html">教师作品</a></li>
+                    <li><a href="works.html">学生作品</a></li>
+                </ul>
+                <ul>
+                    <li><a href="student.html">家校互联</a></li>
+                    <li><a href="student.html">学员风采</a></li>
+                    <li><a href="content.html">智慧校园</a></li>
+                    <li><a href="content.html">OA系统</a></li>
+                    <li><a href="question.html">家长问答</a></li>
+                </ul>
+                <ul>
+                    <li><a href="news.html">画室资讯</a></li>
+                    <li><a href="news.html">智博动态</a></li>
+                    <li><a href="news.html">师生活动</a></li>
+                    <li><a href="news.html">校园联播</a></li>
+                </ul>
+                <ul>
+                    <li><a href="baike.html">艺考百科</a></li>
+                    <li><a href="baike.html">美术联考</a></li>
+                    <li><a href="baike.html">美术校考</a></li>
+                    <li><a href="baike.html">历年联考题目</a></li>
+                    <li><a href="baike.html">历年校考题目</a></li>
+                    <li><a href="baike.html">高分试卷</a></li>
+                    <li><a href="baike.html">成绩查询</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact-icon">
+                <section>
+                    <a href="">
+                        <img src="images/weixin.png" alt="">
+                        <img src="images/two-code.jpg" alt="">
+                        <img src="images/down-jt-white.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="images/weibo.png" alt="">
+                        <img src="images/two-code.jpg" alt="">
+                        <img src="images/down-jt-white.png" alt="">
+                    </a>
+                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=123456789&site=qq&menu=yes"><img src="images/QQ.png" alt=""></a>
+                </section>
+            </div>
+            <p>备案号：湘ICP备15016699号 站长统计 Copyright © 1998-2018<a href="">技术支持：浙江北鼎</a></p>
+        </div>
+    </footer>
+
+
+    <img src="images/back-top.jpg" alt="" class="fixed-back-top">
+
+    <div class="fixed-contact">
+        <a href="apply.html">
+            <img src="images/fixed-apply-icon.png" alt="">
+            <p>在线报名</p>
+        </a>
+        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=123456789&site=qq&menu=yes">
+            <img src="images/QQ.png" alt="">
+            <p>QQ咨询</p>
+        </a>
+        <a href="">
+            <img src="images/weixin.png" alt="">
+            <p>关注公众号</p>
+            <div>
+                <img src="images/two-code.jpg" alt="">
+                <img src="images/right-jt-white.png" alt="">
+            </div>
+        </a>
+        <a href="">
+            <img src="images/weibo.png" alt="">
+            <p>微博动态</p>
+            <div>
+                <img src="images/two-code.jpg" alt="">
+                <img src="images/right-jt-white.png" alt="">
+            </div>
+        </a>
+    </div>
+</body>
+</html>
+<script src="js/meta-pc.js"></script>
+<script src="js/easydialog.js"></script>
+<script src="js/h-slideShow.js"></script>
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
+

@@ -1,0 +1,1 @@
+[{"picture":"images/index-header-bg.jpg"},{"picture":"images/index-answer.jpg"},{"picture":"images/guide-pic.jpg"},{"picture":"images/book-pic.png"}]
